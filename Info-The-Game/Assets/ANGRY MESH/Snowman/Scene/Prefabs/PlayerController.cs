@@ -1,24 +1,34 @@
-﻿using UnityEngine;
-using System.Collections;
-
-public class PlayerController : MonoBehaviour {
-
-    public float speed;
-
-    private Rigidbody rb;
-
-    void Start ()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    void FixedUpdate ()
-    {
-        float moveVertical = Input.GetAxis ("Horizontal");
-        float moveHorizontal = Input.GetAxis ("Vertical");
-
-        Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-
-        rb.AddForce (movement * speed);
-    }
-}
+﻿ using UnityEngine;
+ using System.Collections;
+  
+ public class PlayerController : MonoBehaviour
+  
+ {
+         void Update ()
+         {
+                 if (Input.GetKeyDown(KeyCode.LeftArrow))
+                 {
+                         Vector3 position = this.transform.position;
+                         position.z--;
+                         this.transform.position = position;
+                 }
+                 if (Input.GetKeyDown(KeyCode.UpArrow))
+                 {
+                         Vector3 position = this.transform.position;
+                         position.x++;
+                         this.transform.position = position;
+                 }
+                 if (Input.GetKeyDown(KeyCode.RightArrow))
+                 {
+                         Vector3 position = this.transform.position;
+                         position.z++;
+                         this.transform.position = position;
+                 }
+                 if (Input.GetKeyDown(KeyCode.DownArrow))
+                 {
+                         Vector3 position = this.transform.position;
+                         position.y--;
+                         this.transform.position = position;
+                 }
+ }
+ ]
