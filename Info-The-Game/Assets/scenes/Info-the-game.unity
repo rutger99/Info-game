@@ -472,7 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b64086468e3e2541ad44525324c7f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 750
 --- !u!54 &825182954
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -488,6 +488,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 4
   m_CollisionDetection: 0
+--- !u!111 &825182957
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 825182952}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2ff9ab287feb59a42b45539d2b4a5328, type: 3}
+  m_Animations:
+  - {fileID: 7400000, guid: 2ff9ab287feb59a42b45539d2b4a5328, type: 3}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &942848168
 Prefab:
   m_ObjectHideFlags: 0
@@ -861,6 +876,22 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ce65584c8a5920e4db363e1f55a74de3, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ce65584c8a5920e4db363e1f55a74de3, type: 3}
+      propertyPath: m_CullingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ce65584c8a5920e4db363e1f55a74de3, type: 3}
+      propertyPath: m_UpdateMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: ce65584c8a5920e4db363e1f55a74de3, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1d18a33ed1d519249b7fed96a7df5434, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce65584c8a5920e4db363e1f55a74de3, type: 3}
   m_IsPrefabParent: 0
