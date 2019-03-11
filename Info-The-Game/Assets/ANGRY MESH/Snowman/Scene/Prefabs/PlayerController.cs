@@ -6,7 +6,7 @@
  {
          void Update ()
          {
-                 if (Input.GetKeyDown(KeyCode.LeftArrow))
+                 if (Input.GetKeyDown(KeyCode.RightArrow))
                  {
                          Vector3 position = this.transform.position;
                          position.z--;
@@ -18,7 +18,7 @@
                          position.x++;
                          this.transform.position = position;
                  }
-                 if (Input.GetKeyDown(KeyCode.RightArrow))
+                 if (Input.GetKeyDown(KeyCode.LeftArrow))
                  {
                          Vector3 position = this.transform.position;
                          position.z++;
@@ -31,4 +31,5 @@
                          this.transform.position = position;
                  }
  }
- ]
+ }
+ 
