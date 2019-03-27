@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scenes/dood.unity
+    guid: d650a23f00503fc43aff480041c5c2d7
+  - enabled: 1
+    path: Assets/scenes/Info-the-game.unity
+    guid: 4391a10b7ec47414f9eb0bef3e78b8c3
