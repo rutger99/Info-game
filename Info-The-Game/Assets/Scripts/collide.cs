@@ -13,7 +13,7 @@ public class collide : MonoBehaviour
         if (other.name == "player")
         {
 
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 }

@@ -69,6 +69,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4692982366003326}
   - component: {fileID: 205747457342767556}
+  - component: {fileID: 114120675752851798}
+  - component: {fileID: 65210111695944934}
   m_Layer: 0
   m_Name: Snowman_01
   m_TagString: Untagged
@@ -377,6 +379,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1768305127331982}
   m_Mesh: {fileID: 4300000, guid: 9149b010c2de52f49ad44dee5494fd00, type: 3}
+--- !u!65 &65210111695944934
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1382740567804412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65681576708607626
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -401,6 +415,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114120675752851798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1382740567804412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a44a5ba6f3c664fb8880e98df70373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135493802733073434
 SphereCollider:
   m_ObjectHideFlags: 1

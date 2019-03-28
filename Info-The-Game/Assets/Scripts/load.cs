@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class Load : MonoBehaviour
+public class load : MonoBehaviour
 {
 
 
