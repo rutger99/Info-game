@@ -41158,7 +41158,7 @@ MonoBehaviour:
   groundLayers:
     serializedVersion: 2
     m_Bits: 0
-  speed: 5000
+  speed: 3800
   jumpForce: 5.6
 --- !u!114 &825182959
 MonoBehaviour:
@@ -41172,7 +41172,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jump: {x: 0, y: 0, z: 0}
-  jumpForce: 0
+  jumpForce: 5
   isGrounded: 0
 --- !u!135 &825182960
 SphereCollider:

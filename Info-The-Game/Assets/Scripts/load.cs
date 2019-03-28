@@ -8,23 +8,11 @@ public class Load : MonoBehaviour
 {
 
 
-    public void Main()
-    {
-        SceneManager.LoadScene(0);
-    }
+  
     public void speel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("Info-the-game", LoadSceneMode.Single);
     }
-    public void dood()
-    {
-        SceneManager.LoadScene(2);
-    }
-    public void Spelregels()
-    {
-        SceneManager.LoadScene(3);
-    }
-
 
 
 }

@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 542900868}
   - component: {fileID: 542900867}
   - component: {fileID: 542900866}
-  - component: {fileID: 542900870}
+  - component: {fileID: 542900869}
   m_Layer: 5
   m_Name: ButtonSpeel
   m_TagString: Untagged
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 542900870}
+      - m_Target: {fileID: 542900869}
         m_MethodName: speel
         m_Mode: 1
         m_Arguments:
@@ -472,7 +472,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542900864}
---- !u!114 &542900870
+--- !u!114 &542900869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -887,7 +887,6 @@ GameObject:
   - component: {fileID: 1873840391}
   - component: {fileID: 1873840390}
   - component: {fileID: 1873840389}
-  - component: {fileID: 1873840393}
   m_Layer: 5
   m_Name: ButtonSpelUitleg
   m_TagString: Untagged
@@ -988,17 +987,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1873840387}
---- !u!114 &1873840393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1873840387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76ea00cd707ce634abdd9135820070de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2129244816
 GameObject:
   m_ObjectHideFlags: 0
