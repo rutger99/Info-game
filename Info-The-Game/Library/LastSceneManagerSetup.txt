@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/scenes/Info-the-game.unity
+- path: Assets/scenes/dood.unity
   isLoaded: 1
   isActive: 1

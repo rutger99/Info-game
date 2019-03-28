@@ -1,12 +1,11 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 
 
 
- public class Player2 : MonoBehaviour
+public class Player2 : MonoBehaviour
 {
 
     public LayerMask groundLayers;
@@ -14,14 +13,14 @@ using UnityEngine;
     public float speed = 5;
 
     public float jumpForce = 2;
-	
+
     private Rigidbody rb;
 
     private SphereCollider col;
-	
-	
-	
-	
+
+
+
+
 
 
 
@@ -31,12 +30,12 @@ using UnityEngine;
         col = GetComponent<SphereCollider>();
 
     }
-	
+
 
     void Update()
     {
         float moveHorizontal = Input.GetAxis("Vertical");
-        
+
 
         Vector3 movement = new Vector3(moveHorizontal, 0);
 

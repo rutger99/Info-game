@@ -6,14 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class collide : MonoBehaviour
 {
- 
-     void OnTriggerEnter(Collider other)
+
+    void OnTriggerEnter(Collider other)
     {
-        
+
         if (other.name == "player")
         {
-        
+
             SceneManager.LoadScene(0);
-                     }
+        }
     }
 }
