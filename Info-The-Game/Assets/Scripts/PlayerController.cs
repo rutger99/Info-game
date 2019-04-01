@@ -1,26 +1,34 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
-
 {
+    
+ public  float speed;
+ public Rigidbody rb;
+
+    void Start()
+    {
+        
+        rb = GetComponent<Rigidbody>();
+        
+
+    }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            Vector3 position = this.transform.position;
-            position.z = position.z - 3;
-            this.transform.position = position;
+            
+            rb.AddForce (-Vector3.forward * speed * Time.deltaTime);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
-            Vector3 position = this.transform.position;
-            position.z = position.z + 3;
-            this.transform.position = position;
+
+            rb.AddForce (Vector3.forward * speed * Time.deltaTime);
         }
 
+        
     }
 }
-

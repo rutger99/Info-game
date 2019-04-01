@@ -45,6 +45,7 @@ public class Player2 : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
+		
     }
 
     private bool IsGrounded()
