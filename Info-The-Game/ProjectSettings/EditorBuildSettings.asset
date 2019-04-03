@@ -14,3 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/dood.unity
     guid: d650a23f00503fc43aff480041c5c2d7
+  - enabled: 1
+    path: Assets/scenes/Level1.unity
+    guid: c75c91601d42f004e8f079920cf119a6
+  - enabled: 1
+    path: Assets/scenes/spelregels.unity
+    guid: 63780320c765d9342bec93ca37a4e738
