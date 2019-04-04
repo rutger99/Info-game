@@ -52,11 +52,15 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ANGRY MESH\Snowman\Scene\Prefabs\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\beweegscirptob.cs" />
      <Compile Include="Assets\Scripts\collide.cs" />
+     <Compile Include="Assets\Scripts\collidecube.cs" />
      <Compile Include="Assets\Scripts\Jump.cs" />
      <Compile Include="Assets\Scripts\load.cs" />
      <Compile Include="Assets\Scripts\Player2.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\puntenscript.cs" />
+     <Compile Include="Assets\Scripts\spelregels.cs" />
      <Compile Include="Assets\Scripts\Terugbutton.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

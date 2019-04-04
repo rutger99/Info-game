@@ -21,12 +21,12 @@ public class puntenscript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        float t = (Time.time - startTime) * 15;
+	{
+           float t = Time.time - startTime;
 
-        string punten1 = (t).ToString("f0");
-        
+        string minuten = ((int)t / 60).ToString();
+			string secondes = (t % 60).ToString("f2");
 
-        timerText.text = "Score" + ":" + " " + punten1;
+        timerText.text = "Tijd" + ":" + "" + minuten +":"+ secondes;
     }
 }
