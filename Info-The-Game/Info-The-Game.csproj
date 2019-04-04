@@ -283,7 +283,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\amusedART\Mushroom_Monster\Script\MushroomMon_Ani_Test.cs" />
     <Compile Include="Assets\ANGRY MESH\Snowman\Scene\Prefabs\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\beweegscirptob.cs" />
     <Compile Include="Assets\Scripts\collide.cs" />
     <Compile Include="Assets\Scripts\collidecube.cs" />
     <Compile Include="Assets\Scripts\Jump.cs" />
