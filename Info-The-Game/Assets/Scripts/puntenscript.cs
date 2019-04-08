@@ -10,19 +10,19 @@ using UnityEngine.UI;
 public class puntenscript : MonoBehaviour
 {
     public Text timerText;
-    private float startTime;
+    private float startTijd;
 
 
     void Start()
     {
-        startTime = Time.time;
+        startTijd = Time.time;
 
     }
 
-    // Update is called once per frame
+   
     void Update()
 	{
-           float t = Time.time - startTime;
+           float t = Time.time - startTijd;
 
         string minuten = ((int)t / 60).ToString();
 			string secondes = (t % 60).ToString("f2");

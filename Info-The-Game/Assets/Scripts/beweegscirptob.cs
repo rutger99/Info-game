@@ -3,8 +3,8 @@
  
  public class beweegscirptob : MonoBehaviour {
  
-     public float delta = 1.5f;  
-     public float speed = 2.0f; 
+     public float afstand = 1.5f;  
+     public float snelheid = 2.0f; 
      private Vector3 startPos;
  
      void Start () {
@@ -13,7 +13,7 @@
      
      void Update () {
          Vector3 v = startPos;
-         v.z += delta * Mathf.Sin (Time.time * speed);
+         v.z += afstand * Mathf.Sin (Time.time * snelheid);
          transform.position = v;
      }
  }

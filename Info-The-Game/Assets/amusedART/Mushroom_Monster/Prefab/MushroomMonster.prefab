@@ -21,6 +21,9 @@ GameObject:
   - component: {fileID: 4162405467240868}
   - component: {fileID: 111257925849727144}
   - component: {fileID: 114077228880573962}
+  - component: {fileID: 65449874208769432}
+  - component: {fileID: 114073371107954542}
+  - component: {fileID: 114684775757924544}
   m_Layer: 0
   m_Name: MushroomMonster
   m_TagString: Untagged
@@ -187,6 +190,18 @@ Transform:
   m_Father: {fileID: 4162405467240868}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65449874208769432
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1382258774799692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!111 &111257925849727144
 Animation:
   m_ObjectHideFlags: 1
@@ -206,6 +221,17 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 1
+--- !u!114 &114073371107954542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1382258774799692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a44a5ba6f3c664fb8880e98df70373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114077228880573962
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -217,6 +243,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87f998754931e6249a29867bfd98ab6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114684775757924544
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1382258774799692}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a57458fca6a3a4cb81670d90b83e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  afstand: 1.5
+  snelheid: 2
 --- !u!137 &137209656802228900
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
