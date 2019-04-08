@@ -589,9 +589,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Welkom bij 'Landscape Runner'. Bij dit spel is het de bedoeling dat je zo
-    ver mogelijk rent, zonder de obstakels aan te raken. De besturing is met de pijltjestoetsen
-    en de spatiebalk. Op dit moment is er alleen nog level 1 (redelijk moeilijk!)
+  m_Text: 'Welkom bij ''Landscape Runner''. Bij dit spel is het de bedoeling dat je
+    zo ver mogelijk rent, zonder de obstakels aan te raken. De besturing is met de
+    pijltjestoetsen en de spatiebalk (met double jump). '
 --- !u!222 &912725982
 CanvasRenderer:
   m_ObjectHideFlags: 0

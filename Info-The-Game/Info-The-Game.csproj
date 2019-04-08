@@ -295,6 +295,8 @@
     <Compile Include="Assets\Scripts\puntenscript.cs" />
     <Compile Include="Assets\Scripts\spelregels.cs" />
     <Compile Include="Assets\Scripts\Terugbutton.cs" />
+    <Compile Include="Assets\Scripts\verdwijntext.cs" />
+    <Compile Include="Assets\Scripts\zwaartekracht.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
